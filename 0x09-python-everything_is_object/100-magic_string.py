@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
-def magic_string(my_list=[]):
+def magic_string(n=[0]):
 
-    my_list.append(Holberton)
+    n[0] += 1
 
-    return (, .join(my_list))
+    return str("BestSchool, " * (n[0] - 1)) + "BestSchool"
